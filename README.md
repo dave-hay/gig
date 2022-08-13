@@ -14,4 +14,4 @@ Simply run the below command:
 go install github.com/hayitsdavid/gig
 ```
 
-##
+Currently building support for filetype completion.
