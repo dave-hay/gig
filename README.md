@@ -4,6 +4,8 @@ Gig is a blazingly fast CLI tool built with Go to instanly create .gitignore fil
 You can create a new file or append to an existing file. Gone are the days of
 copying and pasting. Hope you enjoy!
 
+![Gig](gig.png)
+
 ## How to use
 
 ## Install
