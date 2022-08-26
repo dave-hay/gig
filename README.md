@@ -6,8 +6,6 @@ copying and pasting. Hope you enjoy!
 
 ![Gig](gig.png)
 
-## How to use
-
 ## Install
 
 Simply run the below command:
@@ -16,4 +14,9 @@ Simply run the below command:
 go install github.com/hayitsdavid/gig
 ```
 
-Currently building support for filetype completion.
+## How to use
+
+Once installed the command `gig` is available on your local machine. 
+Use `gig new [node][python]etc...` to create a gitignore file that will cover all your needs.
+
+Completion is provided so you do `gig new [tab][tab]` to see the different available files!
