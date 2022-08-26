@@ -35,10 +35,13 @@ func handleExisting() {
 	}
 }
 
+var supportedFiles = []string{"extjs", "zendframework", "sugarcrm", "chefcookbook", "joomla", "cfwheels", "jenv", "virtualenv", "eagle", "objective-c", "java", "nim", "codeki", "rus", "sass", "concrete5", "flexbuilder", "haskell", "gw", "elisp", "otto", "matlab", "dropbo", "redcar", "android", "drupal", "linu", "phalcon", "dm", "backup", "syncthing", "cvs", "labview", "cuda", "coq", "microsoftoffice", "prestashop", "putty", "igorpro", "nanoc", "espresso", "elm", "purescrip", "lua", "magento", "leiningen", "dreamweaver", "unity", "urbogears2", "e", "gitbook", "metals", "mercurial", "smalltalk", "sketchup", "gpg", "ortoisegi", "code", "archives", "bazaar", "contributing", "delphi", "idris", "vim", "expressionengine", "racke", "waf", "erlang", "jdeveloper", "python", "jekyll", "metaprogrammingsystem", "diff", "seamgen", "svn", "grails", "cakephp", "lilypond", "scons", "perl", "scala", "symfony", "ruby", "kate", "ada", "appengine", "libreoffice", "windows", "archlinuxpackages", "rails", "c", "actionscrip", "finale", "zephir", "forcedotcom", "symphonycms", "gcov", "vvvv", "raku", "mercury", "eiffelstudio", "agda", "webmethods", "episerver", "appceleratortitanium", "vagran", "al", "plone", "maven", "jboss", "visualstudio", "dar", "ocaml", "opencar", "eclipse", "laravel", "r", "sb", "opa", "jenkins_home", "ensime", "d", "julia", "processing", "playframework", "elixir", "craftcms", "octave", "scheme", "flaxengine", "images", "slickedi", "erraform", "ly", "virtuoso", "anjuta", "readme", "composer", "node", "ypo3", "visualstudiocode", "godo", "emacs", "oracleforms", "notepadpp", "yeoman", "lithium", "unrealengine", "packer", "ilinxise", "synopsysvcs", "gradle", "autotools", "yii", "wordpress", "patch", "commonlisp", "netbeans", "rhodesrhomobile", "q", "lemonstand", "extpattern", "sublimete", "lazarus", "stella", "go", "cloud9", "calabash", "bricxcc", "fuelphp", "monodevelop", "swif", "redis", "ags", "momentics", "extmate", "darteditor", "ninja", "modelsim", "qooxdoo", "ansible", "cmake", "scrivener", "macos", "psoccreator", "jetbrains", "wincat3", "ros", "ojo", "fancy", "stata", "kicad", "kohana", "sdcc", "codeigniter", "kdevelop4"}
+
 // newCmd represents the new command
 var newCmd = &cobra.Command{
-	Use:   "new",
-	Short: "Create a new .gitignore",
+	Use:       "new",
+	Short:     "Create a new .gitignore",
+	ValidArgs: supportedFiles,
 	Long: `
 create new .gitignore followed by the types of languages, os, etc. that are relevant.
 	`,
