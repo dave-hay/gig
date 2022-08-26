@@ -1,5 +1,5 @@
 /*
-Copyright © 2022 David Hay davidhaydev@protonmail.com
+Copyright © 2022 David Hay davidhaydev@proton.me
 */
 package cmd
 
