@@ -11,12 +11,12 @@ copying and pasting. Hope you enjoy!
 Simply run the below command:
 
 ```bash
-go install github.com/hayitsdavid/gig
+go install github.com/dave-hay/gig
 ```
 
 ## How to use
 
-Once installed the command `gig` is available on your local machine. 
+Once installed the command `gig` is available on your local machine.
 Use `gig new [node][python]etc...` to create a gitignore file that will cover all your needs.
 
 Completion is provided so you do `gig new [tab][tab]` to see the different available files!

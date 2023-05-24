@@ -1,4 +1,4 @@
-module github.com/hayitsdavid/gig
+module github.com/dave-hay/gig
 
 go 1.18
 
